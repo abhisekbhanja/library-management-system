@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+.bg{
+    background-image: url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1290&q=80");
+	height: 100vh
+}
+.banner{
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    animation: move 5s linear infinite ;
+    transition: all 5s linear;
+}
+
+@keyframes move {
+    0%{color:white}
+    50%{color: blue;}
+    100%{color:white}
+}
+.admin{
+    margin:auto ;
+    display: block;
+}
+.login{
+    float: right;
+    margin-top: 100px;
+}
+.logincard{
+    background-color: purple;
+    padding: 8px;
+}
+.signupcard{
+    display: block;
+    margin: auto;
+}
